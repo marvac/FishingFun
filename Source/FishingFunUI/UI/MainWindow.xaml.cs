@@ -149,7 +149,7 @@ namespace FishingFun
             if (bot == null)
             {
                 WowProcess.PressKey(ConsoleKey.Spacebar);
-                System.Threading.Thread.Sleep(1500);
+                System.Threading.Thread.Sleep(1000);
 
                 SetButtonStates(false);
                 botThread = new System.Threading.Thread(new System.Threading.ThreadStart(this.BotThread));
